@@ -275,3 +275,10 @@ if (false) {
     cc.macro.CLEANUP_IMAGE_CACHE = true;
     window.boot();
 }
+
+if (navigator.onLine) {
+    // Online logic: Perform actions that require an internet connection.
+} else {
+    // Offline logic: Use cached data or display a message to the user.
+}
+  
