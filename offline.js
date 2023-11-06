@@ -12,6 +12,9 @@ self.addEventListener('install', function(event) {
           '/src/extraSettings.js',
           '/src/project.js',
           '/src/settings.js',
+          '/res/raw-assets', 
+      	  '/res/imports', 
+          'res/loading.gif'
         ]);
       })
     );
